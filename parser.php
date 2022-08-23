@@ -32,9 +32,9 @@
 if ($_SERVER["REQUEST_METHOD"] == "POST") {	
 
 $servername = "mars.cs.qc.cuny.edu";
-$username = "raze2686";
-$password = "23812686";
-$db = "raze2686";
+$username = "your_username";
+$password = "your_password";
+$db = "name_of_database";
 
 $mysqli = new mysqli($servername, $username, $password, $db);
 
